@@ -1,0 +1,9 @@
+@media screen and (max-width: 1200px) {
+    #desktop-nav{
+        /* basically if the width of the screen is small then itll be a drop down menu instead of how its shown on desktop */
+        display: none;
+    }
+    #hamburger-nav {
+        display: flex;
+    }
+}
